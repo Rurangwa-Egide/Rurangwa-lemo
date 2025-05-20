@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.con{
+    width: 100%;
+    height: 50rem;
+    background-color: #987;
+}
+.log img{
+    min-width:auto%;
+    height: auto;
+    border-radius: 50%;
+    float: left;
+    cursor: grab;
+}
+.con a{
+    text-decoration: none;
+    margin-left: 7%;
+    font-size: 20px;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 10rem;
+    cursor: pointer;
+}
+.cont img{
+    min-width: 10%;
+    height: auto;
+    border-radius: 50%;
+    align-items: center;
+}
+.lim i{
+    display: flex;
+    font-size: 80%;
+}
+.con .lim{
+    position: center;
+    justify-content: center;
+}

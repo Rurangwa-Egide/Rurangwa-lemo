@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.time{
+    width: 100%;
+    height: 50vh;
+    background-color: rgb(152, 189, 189);
+}
+h1{
+    /* font-size: 30px; */
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 5rem;
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+    margin-left: 8%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+a:hover{
+    color: rgb(255, 255, 255);
+}
+/* body{
+    background-color: greenyellow;
+} */
+h2{
+    text-transform: capitalize;
+    text-align: center;
+}
+.work{
+    width: 100%;
+    height: 70vh;
+    margin-top: 5rem;
+    background-color: rgb(88, 104, 104);
+}
+img{
+    width: 23%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    margin-left: 40%;
+    /* float: left; */
+    cursor: pointer;
+    border-radius: 10px;
+    cursor: grab;
+}
+.work img{
+ transition: transform 2s;
+ 
+}
+input[type=checkbox]{
+    display: none;
+   
+}
+input[type=checkbox]:checked ~ label > img{
+    transform: scale(1.6);
+    cursor: zoom-in;
+    
+}
+.last{
+    width: 100%;
+    height: 100rem;
+    background-color: indigo;
+    margin-top: 3rem;
+    bor
+}
+.last img{
+    margin-top: 2rem;
+    width: 20%;
+    border-radius: 50%;
+    border:  2px solid black;
+    display: flex;
+}

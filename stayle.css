@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    width: 100%;
+    background-color: rgb(189, 189, 164);
+    background-position: center;
+    background-size: cover;
+    height: 70vh;
+}
+.navebar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+.icon{
+    width: 200px;
+    float: left;
+
+}
+.logo{
+    color: white;
+        font-size: 35px;
+        font-family: 'Times New Roman', Times, serif;
+        padding-left: 20px;
+        float: left;
+        cursor: pointer;
+}
+.icon img{
+    width: 15%;
+    height:auto;
+    float: left;
+    margin-top: 0.3rem;
+    cursor: pointer;
+}
+.menu{
+    width: 400px;
+    float: left;
+    height: 75px;
+}
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+ul li a{
+    text-decoration: none;
+    color: rgb(7, 43, 248);
+    font-family: 'Times New Roman', Times, serif;
+    /* font-weight: bold; */
+    transition: 0.4s ease-in-out;
+}
+ul li a:hover{
+    color: black;
+    cursor: pointer;
+}
+fieldset{
+    width: 90%;
+    margin-top: 5rem;
+    height: 15rem;
+    margin-left: -9%;
+    border-radius: 10px;
+}
+b{
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-left: -30%;
+    margin-top: 1em;
+    float: left;
+}
+
+.bon{
+    width: 40%;
+    height: auto;
+    border-radius: 50%;
+    align-items: center;
+    margin-left: 25%;
+    margin-top: 4rem;
+    float: left;
+}
+.text{
+    background-color: rgba(189, 211, 163, 0.219);
+}
+h1{
+    text-transform: capitalize;
+    height: auto;
+}
+h3{
+    text-transform: capitalize;
+    height: auto;
+    margin-top: 2rem;
+    margin-left: 2%;
+}
+p{
+    font-size: 14px;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: capitalize;
+    margin-left: 2%;
+    margin-top: 5rem;
+}
+button{
+   min-width: 15%;
+    min-height: 4vh;
+    margin-left: 15%;
+    border-radius: 5px;
+    background-color: rgb(245, 221, 7);
+    margin-top: 5rem;
+    cursor: pointer;
+}
+button:hover{
+ background-color: darkgrey;
+ color: rgb(247, 22, 6);
+}
+.one{
+    width: 30%;
+    margin-top: 2rem;
+    height: auto;
+    margin-left: 5%;
+    cursor: grab;
+    /* float: left; */
+}
+.zoom{
+    background-color: rgb(105, 150, 150);
+}
+.zoom .one{
+    transition: transform 2s;
+    border-radius: 10px;
+
+}
+input[type=checkbox]{
+    display: none;
+}
+input[type=checkbox]:checked ~ label > img{
+    transform:  scale( 1.5);
+    cursor: zoom-in;
+    
+}

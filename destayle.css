@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* body{
+    background-color: rgb(162, 162, 177);
+} */
+.head{
+    width: 100%;
+    height: 4rem;
+    background-color: rgb(92, 218, 67);
+}
+.cont{
+    width: 100%;
+    height: 160vh;
+    background-color: rgb(181, 181, 218);
+}
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li {
+    list-style: none;
+    margin-left: 70px;
+}
+ul li a{
+    text-decoration: none;
+    font-size: 23px;
+    text-transform: capitalize;
+}
+ul li a:hover{
+    color: black;
+    cursor: pointer;
+}
+#name{
+    width: 100%;
+    height: 5rem;
+    background-color: aquamarine;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 25px;
+    justify-content: center;
+}
+#name:hover{
+    color: red;
+    cursor: pointer;
+    background-color: black;
+    transition: 2s;
+}
+.zoom img{
+    cursor: grab;
+    transition: transform 2s;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 5px;
+    margin-top: 5rem;
+    margin-left: 5%;
+    float: left;
+}
+input[type=checkbox]{
+    display: none;
+}
+input[type=checkbox]:checked ~ label > img{
+    transform: scale( 1.5);
+    cursor: zoom-in;
+
+}
+.number{
+  max-width: 600px;
+  min-height: 100px;
+  margin-inline: auto;
+  /* border: 2px solid red; */
+  display: flex;
+  flex-flow: row wrap;
+  gap: 5px ;
+  text-align: center;
+  justify-content: center;
+  margin-top: 5rem;
+  
+}
+.box{
+    min-width: 100px;
+    mxa-height: 50px;
+    background-color: aliceblue;
+    padding: 1rem;
+    border-radius: 5px;
+    border: 2px solid black;
+    cursor: pointer;
+    
+}
+.box:hover{
+
+    background-color: blue;
+    transition-property: background-color;
+    transition-duration: 2s;
+}
+.sty{
+    min-width: 10%;
+    height: auto;
+    border-radius: 50%;
+    margin-left: 30%;
+    margin-top: 2rem;
+    border: 3px solid black;
+    cursor: grab;
+}
+.space{
+    width: 100%;
+    height: 3rem;
+    background-color: white;
+}
+.pra{
+    width: 100%;
+    height: 4rem;
+    background-color: rgb(179, 145, 145);
+    font-size: 32px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    justify-content: center;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+p:hover{
+    background-color: darkorchid;
+    color: white;
+    transition: 2s;
+    cursor: pointer;
+}
+.pat{
+    width: 100%;
+    height: 80rem;
+    background-color: dimgray;
+}
+.pata{
+    width: 40%;
+    margin-left: 2%;
+    margin-top: 3rem;
+    height: auto;
+    border-radius: 5px;
+}
+.lin a{
+    margin-left: 15%;
+    text-decoration: none;
+    margin-top: 3rem;
+    color: rgb(0, 0, 0);
+    font-size: 22px;
+    text-transform: uppercase;
+    justify-content: center;
+    text-align: center;
+    cursor: pointer;
+}
+.lin a:hover{
+    color: rgb(255, 255, 255);
+}
+.down{
+    max-width: 100px;
+}
+.down button{
+    /* max-width: 100%; */
+    width: 150%;
+    height: 3rem;
+    border-radius: 10px;
+    margin-left: 20%;
+    margin-top: 5rem;
+    max-height: 11rem;
+    cursor: pointer;
+    background-color: white;
+}
+/* .down button:hover{
+    background-color: rgb(59, 248, 11);
+    transition: 5s;
+} */
+button img{
+    width: 30%;
+    height: auto;
+    background-color: transparent;
+    border-radius: 10px;
+    margin-left: 100px;
+}
